@@ -8,6 +8,7 @@ namespace TestApp
         {
             Console.WriteLine("Hello World! again, oh no !");
 			Console.WriteLine("And as I'm walking through the valley of death..");
+			Console.WriteLine("strange huh? ..");
         }
     }
 }
