@@ -10,6 +10,7 @@ namespace TestApp
 			Console.WriteLine("And as I'm walking through the valley of death..");
 			Console.WriteLine("strange huh? ..");
 			Console.WriteLine("please work");
+			Console.WriteLine("installed webhook plugins");
         }
     }
 }
