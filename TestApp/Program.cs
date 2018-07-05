@@ -6,9 +6,7 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("I think it's going to work this time");
-
-			
+Console.WriteLine("last push");
         }
     }
 }
