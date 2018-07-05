@@ -6,12 +6,8 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! again, oh no !");
-			Console.WriteLine("And as I'm walking through the valley of death..");
-			Console.WriteLine("strange huh? ..");
-			Console.WriteLine("please work");
-			Console.WriteLine("installed webhook plugins");
-			Console.WriteLine("test commieeeet1254651ef51");
+            Console.WriteLine("I think it's going to work this time");
+
 			
         }
     }
