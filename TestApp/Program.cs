@@ -6,7 +6,7 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-Console.WriteLine("last push");
+Console.WriteLine("time to start building the project");
         }
     }
 }
