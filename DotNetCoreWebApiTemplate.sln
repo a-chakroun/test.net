@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{099DCF38-073C-4BFC-8101-17C6E9FEB934}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50B15285-D17F-4F93-ACD4-FF508D7856DF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+		StyleCop.json = StyleCop.json
+		StyleCop.ruleset = StyleCop.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CEDA57C9-0871-4540-8B6C-C176B94C2529}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreWebApiTemplate", "src\DotNetCoreWebApiTemplate\DotNetCoreWebApiTemplate.csproj", "{F683B4F5-F950-45F7-9388-F81D98FB5E02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreWebApiTemplate.Tests", "test\DotNetCoreWebApiTemplate.Tests\DotNetCoreWebApiTemplate.Tests.csproj", "{5741A0F4-8252-4E04-93FB-235696CC0A91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F683B4F5-F950-45F7-9388-F81D98FB5E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F683B4F5-F950-45F7-9388-F81D98FB5E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F683B4F5-F950-45F7-9388-F81D98FB5E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F683B4F5-F950-45F7-9388-F81D98FB5E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5741A0F4-8252-4E04-93FB-235696CC0A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5741A0F4-8252-4E04-93FB-235696CC0A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5741A0F4-8252-4E04-93FB-235696CC0A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5741A0F4-8252-4E04-93FB-235696CC0A91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F683B4F5-F950-45F7-9388-F81D98FB5E02} = {099DCF38-073C-4BFC-8101-17C6E9FEB934}
+		{5741A0F4-8252-4E04-93FB-235696CC0A91} = {CEDA57C9-0871-4540-8B6C-C176B94C2529}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63B19BEE-D7C6-4262-B893-70414178E301}
+	EndGlobalSection
+EndGlobal
