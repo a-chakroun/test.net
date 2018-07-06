@@ -20,7 +20,7 @@ public partial class _Default : System.Web.UI.Page
             if (Request.QueryString["all"]!=null)
                 Response.Write(entry.Key + " = " + entry.Value + "<br>");
         }
-		// randowm comment here too
+		// randowm comment here too 2
         lblTime.Text = DateTime.Now.ToString();
         lblDotNetVersion.Text = Environment.Version.ToString();
         lblPort.Text = Environment.GetEnvironmentVariable("PORT");
