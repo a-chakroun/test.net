@@ -22,6 +22,7 @@ public partial class _Default : System.Web.UI.Page
         }
 		// randowm comment here too
         // webhook is working and build is working too
+        // black screeen rdp fixed
         lblTime.Text = DateTime.Now.ToString();
         lblDotNetVersion.Text = Environment.Version.ToString();
         lblPort.Text = Environment.GetEnvironmentVariable("PORT");
