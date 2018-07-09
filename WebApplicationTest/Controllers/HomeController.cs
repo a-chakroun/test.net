@@ -8,6 +8,7 @@ namespace WebApplicationTest.Controllers
 {
     public class HomeController : Controller
     {
+        // random comment
         public ActionResult Index()
         {
             return View();
