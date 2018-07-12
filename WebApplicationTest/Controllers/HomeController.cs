@@ -11,7 +11,7 @@ namespace WebApplicationTest.Controllers
         // random comment
         public ActionResult Index()
         {
-            return View();
+            return View() //deleted ;
         }
 
         public ActionResult About()
